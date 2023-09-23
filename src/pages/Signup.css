@@ -1,0 +1,32 @@
+.signup__image--container {
+    background-image: url(https://www.tastingtable.com/img/gallery/why-do-grocery-stores-rarely-have-windows/l-intro-1643758149.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.signup__form--container,
+.login__form--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login__image--container {
+    background-image: url(https://retailinsider.b-cdn.net/wp-content/uploads/2022/02/grocery-1.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 756px) {
+    .login__image--container,
+    .signup__image--container {
+        display: none;
+    }
+}
+
+/* home https://res.cloudinary.com/learn-code-10/image/upload/v1653947013/yqajnhqf7usk56zkwqi5.png */
+/* https://res.cloudinary.com/learn-code-10/image/upload/v1654093280/xkia6f13xxlk5xvvb5ed.png sale */
